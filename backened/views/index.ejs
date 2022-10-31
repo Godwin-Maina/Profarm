@@ -1,0 +1,31 @@
+<html lang="en">
+<%- include( './partials/head.ejs') %>
+
+    <body>
+        <%- include( './partials/nav.ejs') %>
+
+            <div class="content">
+                <h2>All products</h2>
+
+                <%  if (PRODUCTS.length > 0){  %>
+                    <%PRODUCTS.forEach(PRODUCT =>{ %>
+
+                        <h3>
+                            <%=PRODUCT.product%>
+                        </h3>
+                        <p>
+                            <%=PRODUCT.productCategory %>
+                        </p>
+                        <p>
+                            <%=PRODUCT.productDescription %>
+                        </p>
+
+                        <% })%>
+                            <%}else{%>
+                                <p>No product to dispay.....</p>
+                                <%}%>
+            </div>
+            <%- include( './partials/footer.ejs') %>
+    </body>
+
+</html>

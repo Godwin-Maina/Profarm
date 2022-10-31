@@ -1,0 +1,106 @@
+        /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
+        
+        @import url('https://fonts.googleapis.com/css2?family= Quicksand:wght@300;400;500;600;700&display=swap');
+        /*base styles*/
+        
+        /*.backgroundsettings {
+            /*background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/public/maize.jpg);
+        } */
+    
+    /*    body{
+            background-image: url('./imgs/cowhead.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+    
+
+
+            
+             } 
+             */
+        
+       
+        * {
+            font-family: "Quicksand";
+            color: #333;
+        }
+        
+        .content {
+            max-width: 600px;
+            margin: 40 px auto;
+            padding: 20px;
+        }
+        
+        
+
+        .blog-preview {
+            padding: 10px 16px;
+            margin: 20px 0;
+            border-bottom: 1px solid #fafafa;
+        }
+        
+        .blog-preview:hover {
+            box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .blog-preview h2 {
+            font-size: large 10px;
+            color: black;
+            font-weight: bolder;
+            margin: 4px;
+        }
+        /*form sytle*/
+        
+        .form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .form label {
+            text-align: left;
+            display: block;
+        }
+        
+        .form h2 {
+            font-size: 20px;
+            color: navy;
+            margin-bottom: 30px;
+        }
+        
+        .form input,
+        .form textarea,
+        .form select {
+            width: 100%;
+            padding: 6px 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+            display: block;
+        }
+        
+        .form button {
+            background-color: #f1356d;
+            color: #fff;
+            border: 0;
+            padding: 8px;
+            border-radius: 8 px;
+            cursor: pointer;
+        }
+
+        .products {
+            padding: 20px;
+            margin-bottom: 20px;
+            
+        
+          }
+          .products ul{
+            padding: 0;
+            list-style-type: none;
+          }
+          .products li {
+            padding: 10px;
+            margin: 10px auto;
+            border-radius: 10px;
+          }

@@ -1,0 +1,28 @@
+{
+    "blog": [{
+            "Product": " Maize ",
+            "ProductDes": "Grade A ",
+            "ProductCateg ": "Crop",
+            "id": 1
+        },
+        {
+            "Product": " Dairy Cow",
+            "ProductDesc": "Freshian",
+            "ProductCateg ": "Livestock",
+            "id": 2
+        },
+        {
+            "Product": " Beans",
+            "ProductDesc": "Nyayo",
+            "ProductCateg ": "Crop",
+            "id": 3
+        },
+        {
+            "Product": " Farm Tractor ",
+            "ProductDesc": "Plougher",
+            "ProductCateg ": "Machinery",
+            "id": 4
+        }
+
+    ]
+}

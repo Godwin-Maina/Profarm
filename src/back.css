@@ -1,0 +1,30 @@
+        .backimage {
+            /* background-image: url('./imgs/cowhead.jpg');
+            */
+            background-size: cover;
+            overflow: hidden;
+            display: block;
+            /*set rulesfor setting background*/
+            min-width: 1024px;
+            min-height: 100%;
+            /*set up proportional scaling*/
+            width: 100%;
+            height: 50%;
+            /*set up positioning*/
+            position: fixed;
+            top: 0;
+            left: 0;
+            opacity: .75;
+        }
+        
+        @media screen and (max-width:1024px) {
+            /*specific to this particular image*/
+            .backimage {
+                left: 50%;
+                margin-left: -512px;
+            }
+        }
+        
+        .white {
+            color: white;
+        }

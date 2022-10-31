@@ -1,0 +1,23 @@
+<html lang="en">
+<%- include( './partials/head.ejs') %>
+
+    <body>
+        <%- include( './partials/nav.ejs') %>
+            <div class="content">
+                <form action="/products" method="POST">
+                    <label for="ProductName">ProductName:</label>
+                    <input type="text" id="Name" name="product" required>
+
+                    <label for=" ProductCategory ">ProductCategory:</label>
+                    <input type="text " id="Category " name="productCategory" required>
+
+                    <label for="ProductDescription ">ProductDescription:</label>
+                    <textarea id="Description " name="productDescription" required> </textarea>
+                    <p>Upload image below:</p>
+                    <button class="button ">Submit</button>
+                </form>
+            </div>
+            <%- include( './partials/footer.ejs') %>
+    </body>
+
+</html>

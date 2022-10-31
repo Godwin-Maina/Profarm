@@ -1,0 +1,39 @@
+/**/
+
+.styleme / {
+    text-align: center;
+}
+
+
+/*login styling*/
+
+.h2 {
+    text-align: center;
+    background-color: crimson;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.button {
+    margin-top: 20px;
+    background: crimson;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+}
